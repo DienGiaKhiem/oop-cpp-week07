@@ -133,7 +133,7 @@ int main()
         nhapThongTinMay(danhSachMay[i]);
     }
 
-    cout << "\n\n******** DANH SACH COMPUTER ********\n";
+    cout << "\n\n******** DANH SACH ********\n";
     for (int i = 0; i < tongSo; i++)
     {
         danhSachMay[i].xuatThongTin();
@@ -174,13 +174,13 @@ int main()
     cout << "\nNhap nam can tim: ";
     cin >> namTim;
 
-    cout << "\n===== CAC COMPUTER CO YEAR >= " << namTim << " =====\n";
+    cout << "\n===== DANH SACH NAM >= " << namTim << " =====\n";
     inMayTheoNam(danhSachMay, tongSo, namTim);
 
     cout << "\nNhap ID de lay Username va Password: ";
     cin >> idTim;
 
-    cout << "\n===== USERNAME & PASSWORD =====\n";
+    cout << "\n===== TAI KHOAN =====\n";
     inTaiKhoanTheoID(danhSachMay, tongSo, idTim);
 
     PhongMay lab104("AS-104");
